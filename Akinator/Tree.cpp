@@ -185,6 +185,8 @@ static char* TreeReadData()
     char *str = (char*)calloc(numberBytesFile, sizeof(char));
     str = (char*)ReadFile(finput, str, numberBytesFile);
 
+    fclose(finput);
+
     return str;
 }
 

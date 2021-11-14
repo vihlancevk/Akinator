@@ -10,7 +10,10 @@ int main()
 
     Tree_t tree = {};
     treeError = TreeCtor(&tree);
+
     treeError = TreeFill(&tree);
+
+    treeError = TreeDtor(&tree);
 
     return treeError;
 }
