@@ -3,11 +3,13 @@
 #include <string.h>
 #include <assert.h>
 #include "Tree.h"
+#include "FileOperations.h"
 
 #define DEBUG
 
 const size_t STR_MAX_SIZE = 100;
 const char *TREE_GRAPH_VIZ = "graphviz.gv";
+const char *NAME_INPUT_FILE = "data.txt";
 
 static void TreeVisitFprintfNode(const Node_t *node, FILE *foutput)
 {
@@ -173,4 +175,91 @@ Node_t* TreeInsert(Tree_t *tree, Node_t *node, char *str, const int isLeft, Tree
     #endif // DEBUG
 
     return newNode;
+}
+
+static char* TreeReadData()
+{
+    FILE *finput = fopen(NAME_INPUT_FILE, "r");
+
+    int numberBytesFile = GetFileSize(finput);
+    char *str = (char*)calloc(numberBytesFile, sizeof(char));
+    str = (char*)ReadFile(finput, str, numberBytesFile);
+
+    return str;
+}
+
+static char* StrBufferFindEndPhrase(char *str)
+{
+    assert(str != nullptr);
+
+    char *strCopy = str;
+    while (*strCopy != '?' && *strCopy != '!')
+    {
+        strCopy = strCopy + 1;
+    }
+
+    *(strCopy + 1) = '\0';
+
+    return (strCopy + 1);
+}
+
+static char* StrBufferFindNewNode(char *str)
+{
+    assert(str != nullptr);
+
+    while (*str != '{' && *str != '\0')
+    {
+        str = str + 1;
+    }
+
+    return str;
+}
+
+static char* NodeFill(Tree_t *tree, Node_t *node, char *str, TreeErrorCode *treeError)
+{
+    assert(tree != nullptr);
+    assert(node != nullptr);
+    assert(str != nullptr);
+    assert(treeError != nullptr);
+
+    if (*str == '{')
+    {
+        str = str + 2;
+        char number[1] = {};
+        strncpy(number, str, 1);
+        int isLeft = atoi(number);
+        str = str + 1;
+        char *phraseEnd = StrBufferFindEndPhrase(str);
+        Node_t *newNode = TreeInsert(tree, node, str, isLeft, treeError);
+        if (*(phraseEnd - 1) == '?')
+        {
+            str = phraseEnd + 1;
+            str = NodeFill(tree, newNode, str, treeError);
+            str = NodeFill(tree, newNode, str, treeError);
+        }
+        else
+        {
+            str = StrBufferFindNewNode(phraseEnd + 1);
+        }
+    }
+
+    return str;
+}
+
+TreeErrorCode TreeFill(Tree_t *tree)
+{
+    assert(tree != nullptr);
+
+    char *str = TreeReadData();
+    if (str == nullptr)
+    {
+        return TREE_FILL_ERROR;
+    }
+
+    char *strCopy = str;
+    TreeErrorCode treeError = TREE_NO_ERROR;
+    NodeFill(tree, tree->beginTree, strCopy, &treeError);
+
+    free(str);
+    return treeError;
 }

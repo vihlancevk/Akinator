@@ -1,6 +1,8 @@
 #ifndef TREE_H_
 #define TREE_H_
 
+#include <cstddef>
+
 typedef char* elemT;
 
 enum TreeStatus
@@ -16,6 +18,7 @@ enum TreeErrorCode
     TREE_CONSTRUCTED_ERROR,
     TREE_INSERT_ERROR,
     TREE_DESTRUCTED_ERROR,
+    TREE_FILL_ERROR,
 };
 
 struct Node_t
@@ -40,5 +43,7 @@ TreeErrorCode TreeCtor(Tree_t *tree);
 Node_t* TreeInsert(Tree_t *tree, Node_t *node, char *str, const int isLeft, TreeErrorCode *treeError);
 
 TreeErrorCode TreeDtor(Tree_t *tree);
+
+TreeErrorCode TreeFill(Tree_t *tree);
 
 #endif // TREE_H_

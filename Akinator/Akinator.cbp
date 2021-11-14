@@ -32,8 +32,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="FileOperations.cpp" />
+		<Unit filename="FileOperations.h" />
 		<Unit filename="Tree.cpp" />
 		<Unit filename="Tree.h" />
+		<Unit filename="UnitTests.cpp" />
 		<Unit filename="UnitTests.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />

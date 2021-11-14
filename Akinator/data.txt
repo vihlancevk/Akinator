@@ -1,0 +1,1 @@
+{ 1animal? { 1live in your room? { 1Yura! } { 0Vanya! } } { 0Myrluka? { 1No Poltarashka! } { 0Poltarashka! } } }
