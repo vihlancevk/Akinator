@@ -1,17 +1,16 @@
 # depslib dependency file v1.0
-1636907056 source:/home/kostya/Akinator/main.cpp
-	<stdio.h>
+1636924021 source:/home/kostya/Akinator/main.cpp
 	"Tree.h"
 	"UnitTests.h"
 
-1636899868 /home/kostya/Akinator/Tree.h
-	<cstddef>
-
-1636907040 source:/home/kostya/Akinator/Tree.cpp
+1636920354 /home/kostya/Akinator/Tree.h
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
 	<assert.h>
+	<cstddef>
+
+1636923953 source:/home/kostya/Akinator/Tree.cpp
 	"Tree.h"
 	"FileOperations.h"
 

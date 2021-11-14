@@ -1,1 +1,1 @@
-{ 1animal? { 1live in your room? { 1Yura! } { 0Vanya! } } { 0Myrluka? { 1No Poltarashka! } { 0Poltarashka! } } }
+{ 1Животное ? { 1Живёт  в  комнате  107 ? { 1Юра ! } { 0Ваня ! } } { 0Мурлыка ? { 1не  Полторашка ! } { 0Полторашка ! } } }

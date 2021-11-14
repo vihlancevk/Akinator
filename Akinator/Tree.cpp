@@ -1,7 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
-#include <assert.h>
 #include "Tree.h"
 #include "FileOperations.h"
 
@@ -16,7 +12,7 @@ static void TreeVisitFprintfNode(const Node_t *node, FILE *foutput)
     if (node == nullptr) return;
     assert(foutput != nullptr);
 
-    fprintf(foutput, "\t%lu[shape=record, style=\"filled\", fillcolor=\"yellow\", label=\"<%lu> %s\"];\n", node->num, node->num, node->elem);
+    fprintf(foutput, "\t%lu[shape=record, style=\"filled\", fillcolor=\"yellow\", label=\"%s\"];\n", node->num, node->elem);
 
     if (node->left != nullptr) TreeVisitFprintfNode(node->left, foutput);
     if (node->right != nullptr) TreeVisitFprintfNode(node->right, foutput);
@@ -200,9 +196,9 @@ static char* StrBufferFindEndPhrase(char *str)
         strCopy = strCopy + 1;
     }
 
-    *(strCopy + 1) = '\0';
+    *(strCopy - 1) = '\0';
 
-    return (strCopy + 1);
+    return (strCopy - 1);
 }
 
 static char* StrBufferFindNewNode(char *str)
@@ -233,9 +229,9 @@ static char* NodeFill(Tree_t *tree, Node_t *node, char *str, TreeErrorCode *tree
         str = str + 1;
         char *phraseEnd = StrBufferFindEndPhrase(str);
         Node_t *newNode = TreeInsert(tree, node, str, isLeft, treeError);
-        if (*(phraseEnd - 1) == '?')
+        if (*(phraseEnd + 1) == '?')
         {
-            str = phraseEnd + 1;
+            str = phraseEnd + 3;
             str = NodeFill(tree, newNode, str, treeError);
             str = NodeFill(tree, newNode, str, treeError);
         }

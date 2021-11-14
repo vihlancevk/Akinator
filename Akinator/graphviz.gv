@@ -4,13 +4,13 @@ digraph Tree{
 
 	node[color="red",fontsize=14];
 
-	2[shape=record, style="filled", fillcolor="yellow", label="<2> animal?"];
-	3[shape=record, style="filled", fillcolor="yellow", label="<3> live in your room?"];
-	4[shape=record, style="filled", fillcolor="yellow", label="<4> Yura!"];
-	5[shape=record, style="filled", fillcolor="yellow", label="<5> Vanya!"];
-	6[shape=record, style="filled", fillcolor="yellow", label="<6> Myrluka?"];
-	7[shape=record, style="filled", fillcolor="yellow", label="<7> No Poltarashka!"];
-	8[shape=record, style="filled", fillcolor="yellow", label="<8> Poltarashka!"];
+	2[shape=record, style="filled", fillcolor="yellow", label="Животное"];
+	3[shape=record, style="filled", fillcolor="yellow", label="Живёт  в  комнате  107"];
+	4[shape=record, style="filled", fillcolor="yellow", label="Юра"];
+	5[shape=record, style="filled", fillcolor="yellow", label="Ваня"];
+	6[shape=record, style="filled", fillcolor="yellow", label="Мурлыка"];
+	7[shape=record, style="filled", fillcolor="yellow", label="не  Полторашка"];
+	8[shape=record, style="filled", fillcolor="yellow", label="Полторашка"];
 
 	2 -> 3[color="green", label="NO", fontsize=12]
 	2 -> 6[color="blue", label="YES", fontsize=12]
