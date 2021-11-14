@@ -1,0 +1,14 @@
+# depslib dependency file v1.0
+1636852963 source:/home/kostya/Akinator/main.cpp
+	<stdio.h>
+	"Tree.h"
+
+1636852995 /home/kostya/Akinator/Tree.h
+
+1636852950 source:/home/kostya/Akinator/Tree.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	"Tree.h"
+
