@@ -6,13 +6,13 @@ TreeErrorCode UnitTestForTree()
 
     TreeErrorCode treeError = TreeCtor(&tree);
 
-    Node_t *newNode = TreeInsert(&tree, tree.beginTree, "Is it an animal?", 1, &treeError);
+    Node_t *newNode = TreeInsert(&tree, tree.root, "Is it an animal?", LEFT_CHILD, &treeError);
 
-    Node_t *newNode1 = TreeInsert(&tree, newNode, "Does it live in your room?", 1, &treeError);
-    TreeInsert(&tree, newNode1, "This is Yura!", 1, &treeError);
-    TreeInsert(&tree, newNode1, "This is Vanya!", 0, &treeError);
+    Node_t *newNode1 = TreeInsert(&tree, newNode, "Does it live in your room?", LEFT_CHILD, &treeError);
+    TreeInsert(&tree, newNode1, "This is Yura!", LEFT_CHILD, &treeError);
+    TreeInsert(&tree, newNode1, "This is Vanya!", RIGHT_CHILD, &treeError);
 
-    TreeInsert(&tree, newNode, "Poltarashka!", 0, &treeError);
+    TreeInsert(&tree, newNode, "Poltarashka!", RIGHT_CHILD, &treeError);
 
     TreeDtor(&tree);
 

@@ -4,19 +4,23 @@ digraph Tree{
 
 	node[color="red",fontsize=14];
 
-	2[shape=record, style="filled", fillcolor="yellow", label="Животное"];
-	3[shape=record, style="filled", fillcolor="yellow", label="Живёт  в  комнате  107"];
+	2[shape=record, style="filled", fillcolor="yellow", label="животное"];
+	3[shape=record, style="filled", fillcolor="yellow", label="живёт  в  комнате  107"];
 	4[shape=record, style="filled", fillcolor="yellow", label="Юра"];
-	5[shape=record, style="filled", fillcolor="yellow", label="Ваня"];
-	6[shape=record, style="filled", fillcolor="yellow", label="Мурлыка"];
-	7[shape=record, style="filled", fillcolor="yellow", label="не  Полторашка"];
-	8[shape=record, style="filled", fillcolor="yellow", label="Полторашка"];
+	5[shape=record, style="filled", fillcolor="yellow", label="носит очки"];
+	6[shape=record, style="filled", fillcolor="yellow", label="Ваня"];
+	7[shape=record, style="filled", fillcolor="yellow", label="Андрей"];
+	8[shape=record, style="filled", fillcolor="yellow", label="мурлыка"];
+	9[shape=record, style="filled", fillcolor="yellow", label="не  Полторашка"];
+	10[shape=record, style="filled", fillcolor="yellow", label="Полторашка"];
 
 	2 -> 3[color="green", label="NO", fontsize=12]
-	2 -> 6[color="blue", label="YES", fontsize=12]
+	2 -> 8[color="blue", label="YES", fontsize=12]
 	3 -> 4[color="green", label="NO", fontsize=12]
 	3 -> 5[color="blue", label="YES", fontsize=12]
-	6 -> 7[color="green", label="NO", fontsize=12]
-	6 -> 8[color="blue", label="YES", fontsize=12]
+	5 -> 6[color="green", label="NO", fontsize=12]
+	5 -> 7[color="blue", label="YES", fontsize=12]
+	8 -> 9[color="green", label="NO", fontsize=12]
+	8 -> 10[color="blue", label="YES", fontsize=12]
 
 }
