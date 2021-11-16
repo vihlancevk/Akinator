@@ -10,16 +10,13 @@ int main()
 
     //treeError = UnitTestForTree();
 
-    Tree_t tree = {};
-    treeError = TreeCtor(&tree);
-
-    treeError = TreeBuild(&tree);
-
     //UnitTestForQuessingMode();
 
     //UnitTestForObjectDefinitionMode();
 
-    treeError = TreeDtor(&tree);
+    //UnitTestForObjectComparisonMode();
+
+    //UnitTestForTreeShow();
 
     return treeError;
 }

@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1637076887 source:/home/kostya/Akinator/main.cpp
+1637085126 source:/home/kostya/Akinator/main.cpp
 	"Tree.h"
 	"Stack.h"
 	"UnitTests.h"
@@ -15,10 +15,10 @@
 	"Tree.h"
 	"FileOperations.h"
 
-1637076888 /home/kostya/Akinator/UnitTests.h
+1637084855 /home/kostya/Akinator/UnitTests.h
 	"Tree.h"
 
-1637076888 source:/home/kostya/Akinator/UnitTests.cpp
+1637084963 source:/home/kostya/Akinator/UnitTests.cpp
 	"UnitTests.h"
 	"AkinatorMode.h"
 
@@ -40,15 +40,15 @@
 	<cxxabi.h>
 	"Stack.h"
 
-1637072516 /home/kostya/Akinator/Stack.h
+1637085267 /home/kostya/Akinator/Stack.h
 	<stdio.h>
 	<stdint.h>
 	<assert.h>
 
-1637076951 source:/home/kostya/Akinator/AkinatorMode.cpp
+1637084855 source:/home/kostya/Akinator/AkinatorMode.cpp
 	"AkinatorMode.h"
 
-1637076888 /home/kostya/Akinator/AkinatorMode.h
+1637084855 /home/kostya/Akinator/AkinatorMode.h
 	"Tree.h"
 	"Stack.h"
 

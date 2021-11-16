@@ -47,8 +47,34 @@ void UnitTestForObjectDefinitionMode()
 
     stack_t stack = {};
     STACKCTOR_(&stack, STACK_SIZE);
-    stack = *ObjectDefinitionMode(&tree, "Андрей", &stack);
+    stack = *ObjectDefinitionMode(&tree, "Ваня", &stack);
     StackDtor(&stack);
+
+    TreeDtor(&tree);
+}
+
+void UnitTestForObjectComparisonMode()
+{
+    Tree_t tree = {};
+
+    TreeCtor(&tree);
+
+    TreeBuild(&tree);
+
+    ObjectComparisonMode(&tree, "Андрей", "Ваня");
+
+    TreeDtor(&tree);
+}
+
+void UnitTestForTreeShow()
+{
+    Tree_t tree = {};
+
+    TreeCtor(&tree);
+
+    TreeBuild(&tree);
+
+    TreeShow(&tree);
 
     TreeDtor(&tree);
 }

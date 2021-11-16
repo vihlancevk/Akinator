@@ -498,3 +498,4 @@ stack_t* StackReverse(stack_t *stack)
 
     return stack;
 }
+

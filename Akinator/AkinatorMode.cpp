@@ -72,7 +72,7 @@ TreeErrorCode QuessingMode(Tree_t *tree)
     return treeError;
 }
 
-static stack_t* NodeObjectDefinition(const Node_t *node, const NodeChild child, const char *object, stack_t *stack)
+static stack_t* NodeObjectDefinition(const Node_t *node, const char *object, stack_t *stack)
 {
     assert(node != nullptr);
     assert(stack != nullptr);
@@ -95,9 +95,9 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const NodeChild child, 
     {
         if (node->left != nullptr)
         {
-            if (child == LEFT_CHILD) StackPush(stack, (stackData_t)"не");
+            StackPush(stack, (stackData_t)"не");
             StackPush(stack, node->elem);
-            stack = NodeObjectDefinition(node->left, LEFT_CHILD, object, stack);
+            stack = NodeObjectDefinition(node->left, object, stack);
         }
 
         if (stack->size != 0)
@@ -110,14 +110,14 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const NodeChild child, 
             }
             else
             {
-                if (child == LEFT_CHILD) StackPop(stack, ptrStr);
+                StackPop(stack, ptrStr);
             }
         }
 
         if (node->right != nullptr)
         {
             StackPush(stack, node->elem);
-            stack = NodeObjectDefinition(node->right, RIGHT_CHILD, object, stack);
+            stack = NodeObjectDefinition(node->right, object, stack);
         }
 
     }
@@ -129,16 +129,25 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const NodeChild child, 
     return stack;
 }
 
-stack_t* ObjectDefinitionMode(const Tree_t *tree, const char *object, stack_t *stack)
+static void ObjectDefinitionPrint(const char *object, stack_t *stack)
 {
-    assert(tree != nullptr);
     assert(object != nullptr);
     assert(stack != nullptr);
 
-    stack = NodeObjectDefinition(tree->root, LEFT_CHILD, object, stack);
-
     char* ptrStr[1] = {};
-    StackReverse(stack);
+
+    if (stack->size == 4)
+    {
+        StackPop(stack, ptrStr);
+        char* buf[1] = {};
+        StackPop(stack, ptrStr);
+        StackPop(stack, buf);
+        if (strcmp(*ptrStr, *buf) == 0)
+        {
+            printf("Такого объекта не существует в базе.\n");
+            return;
+        }
+    }
 
     printf("%s : ", object);
     size_t i = stack->size;
@@ -151,19 +160,101 @@ stack_t* ObjectDefinitionMode(const Tree_t *tree, const char *object, stack_t *s
             StackPop(stack, ptrStr);
             i--;
         }
-        if (i == 3)
+        if (i == 2)
         {
-            printf("%s и ", *ptrStr);
-        }
-        else if (i == 2)
-        {
-            printf("%s.\n", *ptrStr);
+            printf("%s.", *ptrStr);
         }
         else
         {
             printf("%s, ", *ptrStr);
         }
     }
+}
+
+static stack_t* ObjectDefinition(const Tree_t *tree, const char *object, stack_t *stack)
+{
+    assert(tree != nullptr);
+    assert(object != nullptr);
+    assert(stack != nullptr);
+
+    stack = NodeObjectDefinition(tree->root, object, stack);
+
+    StackReverse(stack);
 
     return stack;
+}
+
+stack_t* ObjectDefinitionMode(const Tree_t *tree, const char *object, stack_t *stack)
+{
+    assert(tree != nullptr);
+    assert(object != nullptr);
+    assert(stack != nullptr);
+
+    stack = ObjectDefinition(tree, object, stack);
+
+    ObjectDefinitionPrint(object, stack);
+
+    return stack;
+}
+
+void ObjectComparisonMode(const Tree_t *tree, const char *object1, const char *object2)
+{
+    assert(tree != nullptr);
+    assert(object1 != nullptr);
+    assert(object2 != nullptr);
+
+    stack_t stack1 = {};
+    stack_t stack2 = {};
+
+    STACKCTOR_(&stack1, STACK_SIZE);
+    STACKCTOR_(&stack2, STACK_SIZE);
+
+    stack1 = *ObjectDefinition(tree, object1, &stack1);
+    stack2 = *ObjectDefinition(tree, object2, &stack2);
+
+    size_t sizeStack1 = stack1.size, sizeStack2 = stack2.size;
+    char* ptrStr1[1] = {};
+    char *ptrStr2[1] = {};
+
+    printf("%s и %s схожи тем, что он и он : ", object1, object2);
+
+    size_t i1 = 0, i2 = 0;
+    for (; i1 < sizeStack1 && i2 < sizeStack2; i1++, i2++)
+    {
+        StackPop(&stack1, ptrStr1);
+        StackPop(&stack2, ptrStr2);
+
+        if (strcmp(*ptrStr1, *ptrStr2) != 0)
+        {
+            StackPush(&stack1, (stackData_t)*ptrStr1);
+            StackPush(&stack2, (stackData_t)*ptrStr2);
+            break;
+        }
+
+        if (strcmp(*ptrStr1, "не") == 0)
+        {
+            printf("%s ", *ptrStr1);
+        }
+        else
+        {
+            printf("%s, ", *ptrStr1);
+        }
+    }
+
+    printf("а отличаются тем, что ");
+    ObjectDefinitionPrint(object1, &stack1);
+
+    printf(" A ");
+    ObjectDefinitionPrint(object2, &stack2);
+
+    StackDtor(&stack1);
+    StackDtor(&stack2);
+}
+
+void TreeShow(const Tree_t *tree)
+{
+    assert(tree != nullptr);
+
+    system("mimeopen -d /home/kostya/Akinator/graphviz.png\n");
+    system("1");
 }

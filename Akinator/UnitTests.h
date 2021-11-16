@@ -11,4 +11,8 @@ void UnitTestForQuessingMode();
 
 void UnitTestForObjectDefinitionMode();
 
+void UnitTestForObjectComparisonMode();
+
+void UnitTestForTreeShow();
+
 #endif // UNIT_TESTS_H_
