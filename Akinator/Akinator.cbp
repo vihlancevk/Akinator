@@ -32,6 +32,8 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="AkinatorMode.cpp" />
+		<Unit filename="AkinatorMode.h" />
 		<Unit filename="FileOperations.cpp" />
 		<Unit filename="FileOperations.h" />
 		<Unit filename="Stack.cpp" />

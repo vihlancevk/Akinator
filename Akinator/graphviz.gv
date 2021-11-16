@@ -6,21 +6,25 @@ digraph Tree{
 
 	2[shape=record, style="filled", fillcolor="yellow", label="животное"];
 	3[shape=record, style="filled", fillcolor="yellow", label="живёт  в  комнате  107"];
-	4[shape=record, style="filled", fillcolor="yellow", label="Юра"];
-	5[shape=record, style="filled", fillcolor="yellow", label="носит очки"];
-	6[shape=record, style="filled", fillcolor="yellow", label="Ваня"];
-	7[shape=record, style="filled", fillcolor="yellow", label="Андрей"];
-	8[shape=record, style="filled", fillcolor="yellow", label="мурлыка"];
-	9[shape=record, style="filled", fillcolor="yellow", label="не  Полторашка"];
-	10[shape=record, style="filled", fillcolor="yellow", label="Полторашка"];
+	4[shape=record, style="filled", fillcolor="yellow", label="белорусс"];
+	5[shape=record, style="filled", fillcolor="yellow", label="Юра"];
+	6[shape=record, style="filled", fillcolor="yellow", label="Андрей"];
+	7[shape=record, style="filled", fillcolor="yellow", label="носит очки"];
+	8[shape=record, style="filled", fillcolor="yellow", label="Ваня"];
+	9[shape=record, style="filled", fillcolor="yellow", label="Андрей"];
+	10[shape=record, style="filled", fillcolor="yellow", label="мурлыка"];
+	11[shape=record, style="filled", fillcolor="yellow", label="не  Полторашка"];
+	12[shape=record, style="filled", fillcolor="yellow", label="Полторашка"];
 
 	2 -> 3[color="green", label="NO", fontsize=12]
-	2 -> 8[color="blue", label="YES", fontsize=12]
+	2 -> 10[color="blue", label="YES", fontsize=12]
 	3 -> 4[color="green", label="NO", fontsize=12]
-	3 -> 5[color="blue", label="YES", fontsize=12]
-	5 -> 6[color="green", label="NO", fontsize=12]
-	5 -> 7[color="blue", label="YES", fontsize=12]
-	8 -> 9[color="green", label="NO", fontsize=12]
-	8 -> 10[color="blue", label="YES", fontsize=12]
+	3 -> 7[color="blue", label="YES", fontsize=12]
+	4 -> 5[color="green", label="NO", fontsize=12]
+	4 -> 6[color="blue", label="YES", fontsize=12]
+	7 -> 8[color="green", label="NO", fontsize=12]
+	7 -> 9[color="blue", label="YES", fontsize=12]
+	10 -> 11[color="green", label="NO", fontsize=12]
+	10 -> 12[color="blue", label="YES", fontsize=12]
 
 }

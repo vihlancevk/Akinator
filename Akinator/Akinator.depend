@@ -31,7 +31,7 @@
 	<assert.h>
 	<string.h>
 
-1637076151 source:/home/kostya/Akinator/Stack.cpp
+1637085297 source:/home/kostya/Akinator/Stack.cpp
 	<stdio.h>
 	<stdlib.h>
 	<string.h>
@@ -45,10 +45,10 @@
 	<stdint.h>
 	<assert.h>
 
-1637084855 source:/home/kostya/Akinator/AkinatorMode.cpp
+1637085493 source:/home/kostya/Akinator/AkinatorMode.cpp
 	"AkinatorMode.h"
 
-1637084855 /home/kostya/Akinator/AkinatorMode.h
+1637085444 /home/kostya/Akinator/AkinatorMode.h
 	"Tree.h"
 	"Stack.h"
 

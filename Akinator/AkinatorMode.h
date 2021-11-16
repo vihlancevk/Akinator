@@ -17,3 +17,4 @@ void ObjectComparisonMode(const Tree_t *tree, const char *object1, const char *o
 void TreeShow(const Tree_t *tree);
 
 #endif // AKINATOR_MODE_H_
+

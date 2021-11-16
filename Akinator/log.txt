@@ -1,1 +1,5270 @@
-111
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackCtor(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(223)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - (null)
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackCtor(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(223)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - (null)
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - (null)
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc6b90]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4dd1500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 6
+		data[0x4ddbda0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - Андрей
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - животное
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e0e1b0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - RECALLOC_VALUE
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e1d500]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - (null)
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - (null)
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 10
+		data[0x4dc7ee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - (null)
+			((null)) [3] - (null)
+			((null)) [4] - (null)
+			((null)) [5] - (null)
+			((null)) [6] - (null)
+			((null)) [7] - (null)
+			((null)) [8] - (null)
+			((null)) [9] - (null)
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - RECALLOC_VALUE
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 3
+		data[0x4e32660]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - белорусс
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 6
+		data[0x4e3cf00]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 12
+		data[0x4e71870]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - носит очки
+			((null)) [6] - Ваня
+			((null)) [7] - RECALLOC_VALUE
+			((null)) [8] - RECALLOC_VALUE
+			((null)) [9] - RECALLOC_VALUE
+			((null)) [10] - RECALLOC_VALUE
+			((null)) [11] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 4
+		data[0x4e856d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			((null)) [1] - животное
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 0
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - не
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4e8ff70]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4e9a800]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e9a800]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e9a800]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e9a800]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4e9a800]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - RECALLOC_VALUE
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 4
+		data[0x4ea05d0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - RECALLOC_VALUE
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - RECALLOC_VALUE
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 7
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 6
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 5
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 8
+		data[0x4e25840]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			((null)) [2] - живёт  в  комнате  107
+			((null)) [3] - не
+			((null)) [4] - животное
+			((null)) [5] - не
+			((null)) [6] - RECALLOC_VALUE
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 4
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 8
+		data[0x4ea8910]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - живёт  в  комнате  107
+			((null)) [4] - не
+			((null)) [5] - животное
+			((null)) [6] - не
+			((null)) [7] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ecbee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ecbee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ecbee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ecbee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ecbee0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - RECALLOC_VALUE
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 3
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 2
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 4
+		data[0x4ed4210]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			((null)) [1] - носит очки
+			((null)) [2] - не
+			((null)) [3] - RECALLOC_VALUE
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4edeab0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4edeab0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffd60] [&stack1] at /home/kostya/Akinator/AkinatorMode.cpp(209) called from StackErrorCode StackDtor(stack_t*) at /home/kostya/Akinator/Stack.cpp(317)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 2
+		data[0x4ec1650]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Андрей
+			((null)) [1] - белорусс
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
+================================================================================
+Stack <(null)> [0x1ffefffdc0] [&stack2] at /home/kostya/Akinator/AkinatorMode.cpp(210) called from StackErrorCode StackDtor(stack_t*) at /home/kostya/Akinator/Stack.cpp(317)
+{
+	STACK_NO_ERROR
+	STACK_CONSTRUCTED
+	{
+		size = 1
+		capacity = 1
+		data[0x4edeab0]
+		{
+			DATA_LEFT_CANARY = 1287410174895395089
+			((null)) [0] - Ваня
+			DATA_RIGHT_CANARY = 2512389419566834210
+		}
+	}
+}
+--------------------------------------------------------------------------------
