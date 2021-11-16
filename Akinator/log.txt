@@ -1,12 +1,12 @@
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackCtor(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(223)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackCtor(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(223)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 0
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - (null)
@@ -25,14 +25,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 0
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - (null)
@@ -51,14 +51,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -77,14 +77,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -103,14 +103,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -129,14 +129,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -155,14 +155,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -181,14 +181,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 10
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -207,14 +207,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -226,14 +226,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -245,14 +245,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -264,14 +264,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -283,14 +283,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -302,14 +302,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -321,14 +321,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -340,14 +340,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -359,14 +359,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 3
-		data[0x56337c7826d0]
+		data[0x55c86b5dce00]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -378,14 +378,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -400,14 +400,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -422,14 +422,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -444,14 +444,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -466,14 +466,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -488,14 +488,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -510,14 +510,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -532,14 +532,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -554,14 +554,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -576,14 +576,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -598,14 +598,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 6
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -620,14 +620,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -638,14 +638,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -656,14 +656,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -674,14 +674,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -692,14 +692,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782960]
+		data[0x55c86b5dd090]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -710,14 +710,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -730,14 +730,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -750,14 +750,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -770,14 +770,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -790,14 +790,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -810,14 +810,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -830,14 +830,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -850,14 +850,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -870,14 +870,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -890,14 +890,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -910,14 +910,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -930,14 +930,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -950,14 +950,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -970,14 +970,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -990,14 +990,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1010,14 +1010,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1030,14 +1030,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1050,14 +1050,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1070,14 +1070,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1090,14 +1090,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1110,14 +1110,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1130,14 +1130,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1150,14 +1150,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c782b90]
+		data[0x55c86b5dd3b0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1170,14 +1170,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1194,14 +1194,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1218,14 +1218,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1242,14 +1242,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1266,14 +1266,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1290,14 +1290,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1314,14 +1314,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1338,14 +1338,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1362,14 +1362,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1386,14 +1386,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1410,14 +1410,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1434,14 +1434,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1458,14 +1458,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 8
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1482,14 +1482,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1500,14 +1500,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1518,14 +1518,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1536,14 +1536,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1554,14 +1554,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1572,14 +1572,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 0
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1590,14 +1590,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 0
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - не
@@ -1608,14 +1608,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1626,14 +1626,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1644,14 +1644,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1662,14 +1662,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1680,14 +1680,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1698,14 +1698,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c782eb0]
+		data[0x55c86b5dd6d0]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1716,14 +1716,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1736,14 +1736,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1756,14 +1756,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1776,14 +1776,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1796,14 +1796,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(334)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1816,14 +1816,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1836,14 +1836,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 4
-		data[0x56337c783350]
+		data[0x55c86b5dda70]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1856,14 +1856,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1880,14 +1880,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPush(stack_t*, stackData_t) at /home/kostya/Akinator/Stack.cpp(355)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1904,14 +1904,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 5
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1928,14 +1928,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1952,14 +1952,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 4
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -1976,14 +1976,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2000,14 +2000,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 3
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2024,14 +2024,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(289)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2048,14 +2048,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode ReallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(248)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 8
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2072,14 +2072,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode RecallocStack(stack_t*, size_t) at /home/kostya/Akinator/Stack.cpp(300)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2090,14 +2090,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(378)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2108,14 +2108,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(361)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 2
 		capacity = 2
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2126,14 +2126,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackPop(stack_t*, char**) at /home/kostya/Akinator/Stack.cpp(382)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей
@@ -2144,14 +2144,14 @@ Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) 
 }
 --------------------------------------------------------------------------------
 ================================================================================
-Stack <(null)> [0x7fff12acbd10] [&stack] at /home/kostya/Akinator/main.cpp(165) called from StackErrorCode StackDtor(stack_t*) at /home/kostya/Akinator/Stack.cpp(317)
+Stack <(null)> [0x7ffc867f8b90] [&stack] at /home/kostya/Akinator/UnitTests.cpp(49) called from StackErrorCode StackDtor(stack_t*) at /home/kostya/Akinator/Stack.cpp(317)
 {
 	STACK_NO_ERROR
 	STACK_CONSTRUCTED
 	{
 		size = 1
 		capacity = 2
-		data[0x56337c783470]
+		data[0x55c86b5ddb90]
 		{
 			DATA_LEFT_CANARY = 1287410174895395089
 			((null)) [0] - Андрей

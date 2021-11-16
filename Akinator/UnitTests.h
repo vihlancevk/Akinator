@@ -3,6 +3,12 @@
 
 #include "Tree.h"
 
+#define DEBUG
+
 TreeErrorCode UnitTestForTree();
+
+void UnitTestForQuessingMode();
+
+void UnitTestForObjectDefinitionMode();
 
 #endif // UNIT_TESTS_H_

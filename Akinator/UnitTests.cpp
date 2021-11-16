@@ -1,4 +1,9 @@
 #include "UnitTests.h"
+#include "AkinatorMode.h"
+
+#define DEBUG
+
+const int STACK_SIZE = 10;
 
 TreeErrorCode UnitTestForTree()
 {
@@ -17,4 +22,33 @@ TreeErrorCode UnitTestForTree()
     TreeDtor(&tree);
 
     return treeError;
+}
+
+void UnitTestForQuessingMode()
+{
+    Tree_t tree = {};
+
+    TreeCtor(&tree);
+
+    TreeBuild(&tree);
+
+    QuessingMode(&tree);
+
+    TreeDtor(&tree);
+}
+
+void UnitTestForObjectDefinitionMode()
+{
+    Tree_t tree = {};
+
+    TreeCtor(&tree);
+
+    TreeBuild(&tree);
+
+    stack_t stack = {};
+    STACKCTOR_(&stack, STACK_SIZE);
+    stack = *ObjectDefinitionMode(&tree, "Андрей", &stack);
+    StackDtor(&stack);
+
+    TreeDtor(&tree);
 }
