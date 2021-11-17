@@ -2,9 +2,14 @@
 #include "Stack.h"
 #include "UnitTests.h"
 
+#define DEBUG
+//#undef DEBUG
+
 int main()
 {
-    ClearLogFile();
+    #ifdef DEBUG
+        ClearLogFile();
+    #endif // DEBUG
 
     TreeErrorCode treeError = TREE_NO_ERROR;
 

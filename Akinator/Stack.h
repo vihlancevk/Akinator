@@ -95,10 +95,15 @@ void Dump(stack_t *stack, const char *nameFunction, size_t line, const char *fil
     #define ASSERT_OK(stack)                                      \
         do{                                                       \
         Dump(stack, __PRETTY_FUNCTION__, __LINE__, __FILE__);     \
+        if (GetStackError(stack) != STACK_NO_ERROR)               \
+        {                                                         \
+            StackDtor(stack);                                     \
+            assert(GetStackError(stack) != STACK_DESTROYED);      \
+        }                                                         \
         assert(GetStackError(stack) == STACK_NO_ERROR);           \
         }while(false);
 #else
-    #define ASSERT_OK(stack)                                      \
+    #define ASSERT_OK(stack)
 
 #endif //DEBUG
 

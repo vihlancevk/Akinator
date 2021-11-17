@@ -281,8 +281,6 @@ static StackErrorCode ReallocStack(stack_t *stack, size_t newCapacity)
     return stackError;
 }
 
-//}-------------------------------------------------------------------
-
 #ifdef DEBUG
     static StackErrorCode RecallocStack(stack_t *stack, size_t newCapacity)
     {
@@ -306,7 +304,7 @@ static StackErrorCode ReallocStack(stack_t *stack, size_t newCapacity)
     #define RECALLOC_STACK_(stack, newCapacity)        \
         RecallocStack(stack, newCapacity)
 #else
-    #define RECALLOC_STACK_(satck, newCapacity)        \
+    #define RECALLOC_STACK_(stack, newCapacity)        \
         ReallocStack(stack, newCapacity)
 #endif // DEBUG
 
@@ -347,9 +345,15 @@ StackErrorCode StackPush(stack_t *stack, stackData_t element)
         }
     }
 
-    stackData_t *dataBegin = (stackData_t*)((char*)stack->data + sizeof(uint64_t));
-    dataBegin[stack->size] = element;
+    #ifdef DEBUG
+        stackData_t *dataBegin = (stackData_t*)((char*)stack->data + sizeof(uint64_t));
+        dataBegin[stack->size] = element;
+    #else
+        stack->data[stack->size] = element;
+    #endif // DEBUG
+
     stack->size++;
+
     STACK_AND_DATA_HASHING_(stack);
 
     ASSERT_OK(stack);
@@ -365,8 +369,13 @@ StackErrorCode StackPop(stack_t *stack, stackData_t *top)
 
     if (stack->size > 0)
     {
-        stackData_t *dataEnd = (stackData_t*)((char*)stack->data + sizeof(uint64_t));
-        *top = dataEnd[stack->size - 1];
+        #ifdef DEBUG
+            stackData_t *dataEnd = (stackData_t*)((char*)stack->data + sizeof(uint64_t));
+            *top = dataEnd[stack->size - 1];
+        #else
+            *top = stack->data[stack->size - 1];
+        #endif // DEBUG
+
         stack->size--;
 
         STACK_AND_DATA_HASHING_(stack);
@@ -426,10 +435,11 @@ size_t GetStackSize(stack_t *stack)
         char *type = nullptr;
         if (stackError != STACK_DATA_NO_CREATE)
         {
-            char *type = abi::__cxa_demangle(typeid(stack->data[0]).name(), 0, 0, &status);
+            type = abi::__cxa_demangle(typeid(stack->data[0]).name(), 0, 0, &status);
             if (status != 0)
             {
                 printf("Error with __cxa_demangle() in dump()\n");
+                return;
             }
         }
 
@@ -471,12 +481,11 @@ size_t GetStackSize(stack_t *stack)
         fprintf(foutput, "--------------------------------------------------------------------------------\n");
 
         fclose(foutput);
+        free(type);
     }
 #endif // DEBUG
 
 //}-------------------------------------------------------------------
-
-//{-------------------------------------------------------------------
 
 stack_t* StackReverse(stack_t *stack)
 {
