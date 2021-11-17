@@ -4,17 +4,31 @@
 
 const int ANSWER_MAX_SIZE = 100;
 const int STACK_SIZE = 10;
+const int OUTPUT_MESSAGE_MAX_SIZE = 100;
+
+char outputMessage[OUTPUT_MESSAGE_MAX_SIZE] = {};
+
+#define OUTPUT_MESSAGE_(message, arg)                                     \
+    do                                                                    \
+    {                                                                     \
+        printf(message, arg);                                             \
+        sprintf(outputMessage, "espeak-ng -s 150 -v ru "#message, arg);   \
+        system(outputMessage);                                            \
+        memset(outputMessage, 0, sizeof(char) * OUTPUT_MESSAGE_MAX_SIZE); \
+    } while(0)
 
 TreeErrorCode QuessingMode(Tree_t *tree)
 {
     assert(tree != nullptr);
 
-    printf("Akinator.\n\n");
-    printf("Запущен режим угадывания объекта по признакам.\n\n");
+    OUTPUT_MESSAGE_("Akinator.", 0);
+    printf("\n");
+    OUTPUT_MESSAGE_("Запущен режим угадывания объекта по признакам.", 0);
+    printf("\n\n");
 
     TreeErrorCode treeError = TREE_NO_ERROR;
     Node_t *node = tree->root;
-    char *answer = (char*)calloc(ANSWER_MAX_SIZE, sizeof(char));
+    char answer[ANSWER_MAX_SIZE] = {};
 
     #define READ_ANSWER_()                                     \
         do                                                     \
@@ -27,45 +41,45 @@ TreeErrorCode QuessingMode(Tree_t *tree)
 
     while (node->left != nullptr && node->right != nullptr)
     {
-        printf("%s?\n", node->elem);
+        OUTPUT_MESSAGE_("%s?", node->elem);
+        printf("\n");
         READ_ANSWER_();
         node = ((strcmp(answer, "нет") == 0) ? node = node->left : node = node->right);
     }
 
-    printf("Это %s?\n", node->elem);
+    OUTPUT_MESSAGE_("Это %s?", node->elem);
+    printf("\n");
     READ_ANSWER_();
 
     if (strcmp(answer, "нет") == 0)
     {
-        printf("Кто это?\n");
+        OUTPUT_MESSAGE_("Кто это?", 0);
+        printf("\n");
         READ_ANSWER_();
         TreeInsert(tree, node, node->elem, LEFT_CHILD, &treeError);
         TreeInsert(tree, node, answer, RIGHT_CHILD, &treeError);
-        printf("Чем %s отличается от %s?\n", answer, node->elem);
+        OUTPUT_MESSAGE_("Чем %s отличается от ", answer);
+        OUTPUT_MESSAGE_("%s?", node->elem);
+        printf("\n");
         READ_ANSWER_();
         strcpy(node->elem, answer);
-        printf("Сохранить базу данных?\n");
+        OUTPUT_MESSAGE_("Сохранить базу данных?", 0);
+        printf("\n");
         READ_ANSWER_();
         if (strcmp(answer, "нет") == 0)
         {
-            printf("База данных не сохранена!\n");
+            OUTPUT_MESSAGE_("База данных не сохранена!", 0);
         }
         else
         {
             treeError = TreeSaveInFile(tree);
-            printf("База данных сохранена!\n");
+            OUTPUT_MESSAGE_("База данных сохранена!", 0);
         }
     }
     else
     {
-        printf("Система угадала правильный ответ!\n");
+        OUTPUT_MESSAGE_("Система угадала правильный ответ!", 0);
     }
-
-    free(answer);
-
-    #ifdef DEBUG
-        TreeDump(tree);
-    #endif // DEBUG
 
     #undef READ_ANSWER_
 
@@ -80,17 +94,6 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const char *object, sta
 
     char* ptrStr[1] = {};
 
-    if (stack->size != 0)
-    {
-        StackPop(stack, ptrStr);
-        if (strcmp(*ptrStr, object) == 0)
-        {
-            StackPush(stack, (stackData_t)object);
-            return stack;
-        }
-        StackPush(stack, (stackData_t)*ptrStr);
-    }
-
     if (node->left != nullptr)
     {
         if (node->left != nullptr)
@@ -100,18 +103,15 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const char *object, sta
             stack = NodeObjectDefinition(node->left, object, stack);
         }
 
-        if (stack->size != 0)
+        StackPop(stack, ptrStr);
+        if (strcmp(*ptrStr, object) == 0)
+        {
+            StackPush(stack, (stackData_t)object);
+            return stack;
+        }
+        else
         {
             StackPop(stack, ptrStr);
-            if (strcmp(*ptrStr, object) == 0)
-            {
-                StackPush(stack, (stackData_t)object);
-                return stack;
-            }
-            else
-            {
-                StackPop(stack, ptrStr);
-            }
         }
 
         if (node->right != nullptr)
@@ -120,6 +120,12 @@ static stack_t* NodeObjectDefinition(const Node_t *node, const char *object, sta
             stack = NodeObjectDefinition(node->right, object, stack);
         }
 
+        StackPop(stack, ptrStr);
+        if (strcmp(*ptrStr, object) == 0)
+        {
+            StackPush(stack, (stackData_t)object);
+            return stack;
+        }
     }
     else
     {
@@ -144,29 +150,29 @@ static void ObjectDefinitionPrint(const char *object, stack_t *stack)
         StackPop(stack, buf);
         if (strcmp(*ptrStr, *buf) == 0)
         {
-            printf("Такого объекта не существует в базе.\n");
+            OUTPUT_MESSAGE_("Такого объекта не существует в базе.", 0);
             return;
         }
     }
 
-    printf("%s : ", object);
+    OUTPUT_MESSAGE_("%s : ", object);
     size_t i = stack->size;
     for (; i > 1; i--)
     {
         StackPop(stack, ptrStr);
         if (strcmp(*ptrStr, "не") == 0)
         {
-            printf("%s ", *ptrStr);
+            OUTPUT_MESSAGE_("%s ", *ptrStr);
             StackPop(stack, ptrStr);
             i--;
         }
         if (i == 2)
         {
-            printf("%s.", *ptrStr);
+            OUTPUT_MESSAGE_("%s.", *ptrStr);
         }
         else
         {
-            printf("%s, ", *ptrStr);
+            OUTPUT_MESSAGE_("%s, ", *ptrStr);
         }
     }
 }
@@ -216,7 +222,8 @@ void ObjectComparisonMode(const Tree_t *tree, const char *object1, const char *o
     char* ptrStr1[1] = {};
     char *ptrStr2[1] = {};
 
-    printf("%s и %s схожи тем, что он и он : ", object1, object2);
+    OUTPUT_MESSAGE_("%s и ", object1);
+    OUTPUT_MESSAGE_("%s схожи тем, что он и он : ", object2);
 
     size_t i1 = 0, i2 = 0;
     for (; i1 < sizeStack1 && i2 < sizeStack2; i1++, i2++)
@@ -233,18 +240,18 @@ void ObjectComparisonMode(const Tree_t *tree, const char *object1, const char *o
 
         if (strcmp(*ptrStr1, "не") == 0)
         {
-            printf("%s ", *ptrStr1);
+            OUTPUT_MESSAGE_("%s ", *ptrStr1);
         }
         else
         {
-            printf("%s, ", *ptrStr1);
+            OUTPUT_MESSAGE_("%s, ", *ptrStr1);
         }
     }
 
-    printf("а отличаются тем, что ");
+    OUTPUT_MESSAGE_("а отличаются тем, что ", 0);
     ObjectDefinitionPrint(object1, &stack1);
 
-    printf(" A ");
+    OUTPUT_MESSAGE_(" A ", 0);
     ObjectDefinitionPrint(object2, &stack2);
 
     StackDtor(&stack1);
@@ -256,5 +263,6 @@ void TreeShow(const Tree_t *tree)
     assert(tree != nullptr);
 
     system("mimeopen -d /home/kostya/Akinator/graphviz.png\n");
-    system("1");
 }
+
+#undef OUTPUT_MESSAGE_

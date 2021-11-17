@@ -84,10 +84,6 @@ TreeErrorCode TreeCtor(Tree_t *tree)
     tree->size = 0;
     tree->status = TREE_CONSTRUCTED;
 
-    #ifdef DEBUG
-        TreeDump(tree);
-    #endif // DEBUG
-
     return treeError;
 }
 
@@ -166,10 +162,6 @@ Node_t* TreeInsert(Tree_t *tree, Node_t *node, char *str, const NodeChild child,
     }
     tree->size = tree->size + 1;
     newNode->num = tree->size + 1;
-
-    #ifdef DEBUG
-        TreeDump(tree);
-    #endif // DEBUG
 
     return newNode;
 }
@@ -280,6 +272,8 @@ TreeErrorCode TreeBuild(Tree_t *tree)
     TreeErrorCode treeError = TREE_NO_ERROR;
     NodeFill(tree, tree->root, strCopy, &treeError);
 
+    TreeDump(tree);
+
     free(str);
     return treeError;
 }
@@ -311,6 +305,8 @@ TreeErrorCode TreeSaveInFile(Tree_t *tree)
     FILE *data = fopen(OUTPUT_FILE_NAME, "w");
 
     NodeSaveInFile(tree->root, data, LEFT_CHILD);
+
+    TreeDump(tree);
 
     fclose(data);
 
