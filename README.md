@@ -2,7 +2,7 @@
 It is simple program, that can happy you. She have 4 operating mode
 1) GuessObject - we need to answer on the questions yes or no and we will see object, which matches the selected attributes;
 >example
-
+![Image alt](https://github.com/vihlancevk/Akinator/blob/main/res/first.png)
 2) DefineObjectMode - we need input name object and program output its attributes;
 >example
 
