@@ -288,7 +288,7 @@ static void NodeSaveInFile(Node_t *node, FILE *foutput, NodeChild child)
     {
         fprintf(foutput, "{ %d%s ? ", (int)child, node->elem);
 
-        if (node->left != nullptr) NodeSaveInFile(node->left, foutput, LEFT_CHILD);
+        if (node->left  != nullptr) NodeSaveInFile(node->left, foutput, LEFT_CHILD);
         if (node->right != nullptr) NodeSaveInFile(node->right, foutput, RIGHT_CHILD);
 
         fprintf(foutput, "} ");

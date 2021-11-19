@@ -61,7 +61,7 @@ void UnitTestForCompairObjectsMode()
 
     TreeBuild(&tree);
 
-    CompairObjectsMode(&tree, "Андрей", "Ясин");
+    CompairObjectsMode(&tree, "Полторашка", "Костик");
 
     TreeDtor(&tree);
 }

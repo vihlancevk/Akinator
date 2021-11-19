@@ -5,17 +5,20 @@
 const int ANSWER_MAX_SIZE = 100;
 const int STACK_SIZE = 10;
 const int OUTPUT_MESSAGE_MAX_SIZE = 100;
+const int INPUT_MESSAGE_MAX_SIZE = 100;
 
+char inputMessage[INPUT_MESSAGE_MAX_SIZE] = {};
 char outputMessage[OUTPUT_MESSAGE_MAX_SIZE] = {};
 
-static void OutputMessage(const char *message, const char *arg = nullptr)
+static void OutputMessage(const char *message)
 {
     assert(message != nullptr);
 
-    printf(message, arg);
-    sprintf(outputMessage, "espeak-ng -g 10 -s 150 -v ru %s", message, arg);
+    printf("%s\n", message);
+    sprintf(outputMessage, "espeak-ng -g 10 -s 150 -v ru \"%s\"", message);
     system(outputMessage);
     memset(outputMessage, 0, sizeof(char) * OUTPUT_MESSAGE_MAX_SIZE);
+    memset(inputMessage , 0, sizeof(char) * INPUT_MESSAGE_MAX_SIZE);
 }
 
 static void ReadAnswer(char *answer)
@@ -33,9 +36,8 @@ TreeErrorCode GuessObject(Tree_t *tree)
     assert(tree != nullptr);
 
     OutputMessage("Akinator.");
-    printf("\n");
     OutputMessage("Запущен режим угадывания объекта по признакам.");
-    printf("\n\n");
+    printf("\n");
 
     TreeErrorCode treeError = TREE_NO_ERROR;
     Node_t *node = tree->root;
@@ -43,36 +45,34 @@ TreeErrorCode GuessObject(Tree_t *tree)
 
     while (node->left != nullptr && node->right != nullptr)
     {
-        OutputMessage("%s?", node->elem);
-        printf("\n");
+        sprintf(inputMessage, "%s", node->elem);
+        OutputMessage(inputMessage);
         ReadAnswer(answer);
         node = ((strcmp(answer, "нет") == 0) ? node = node->left : node = node->right);
     }
 
-    OutputMessage("Это %s?", node->elem);
-    printf("\n");
+    sprintf(inputMessage, "Это %s?", node->elem);
+    OutputMessage(inputMessage);
+
     ReadAnswer(answer);
 
     if (strcmp(answer, "нет") == 0)
     {
         OutputMessage("Кто это?");
-        printf("\n");
 
         ReadAnswer(answer);
 
         TreeInsert(tree, node, node->elem, LEFT_CHILD, &treeError);
         TreeInsert(tree, node, answer, RIGHT_CHILD, &treeError);
 
-        OutputMessage("Чем %s отличается от ", answer);
-        OutputMessage("%s?", node->elem);
-        printf("\n");
+        sprintf(inputMessage, "Чем %s отличается от %s?", answer, node->elem);
+        OutputMessage(inputMessage);
 
         ReadAnswer(answer);
 
         strcpy(node->elem, answer);
 
         OutputMessage("Сохранить базу данных?");
-        printf("\n");
 
         ReadAnswer(answer);
         if (strcmp(answer, "нет") == 0)
@@ -162,24 +162,28 @@ static void ObjectDefinitionPrint(const char *object, stack_t *stack)
         }
     }
 
-    OutputMessage("%s : ", object);
+    sprintf(inputMessage, "%s : ", object);
+    OutputMessage(inputMessage);
     size_t i = stack->size;
     for (; i > 1; i--)
     {
         StackPop(stack, ptrStr);
         if (strcmp(*ptrStr, "не") == 0)
         {
-            OutputMessage("%s ", *ptrStr);
+            sprintf(inputMessage, "%s ", *ptrStr);
+            OutputMessage(inputMessage);
             StackPop(stack, ptrStr);
             i--;
         }
         if (i == 2)
         {
-            OutputMessage("%s.", *ptrStr);
+            sprintf(inputMessage, "%s.", *ptrStr);
+            OutputMessage(inputMessage);
         }
         else
         {
-            OutputMessage("%s, ", *ptrStr);
+            sprintf(inputMessage, "%s, ", *ptrStr);
+            OutputMessage(inputMessage);
         }
     }
 }
@@ -229,8 +233,10 @@ void CompairObjectsMode(const Tree_t *tree, const char *object1, const char *obj
     char* ptrStr1[1] = {};
     char *ptrStr2[1] = {};
 
-    OutputMessage("%s и ", object1);
-    OutputMessage("%s схожи тем, что он и он : ", object2);
+    sprintf(inputMessage, "%s и %s", object1, object2);
+    OutputMessage(inputMessage);
+
+    OutputMessage("схожи тем, что оба:");
 
     size_t i1 = 0, i2 = 0;
     for (; i1 < sizeStack1 && i2 < sizeStack2; i1++, i2++)
@@ -247,18 +253,20 @@ void CompairObjectsMode(const Tree_t *tree, const char *object1, const char *obj
 
         if (strcmp(*ptrStr1, "не") == 0)
         {
-            OutputMessage("%s ", *ptrStr1);
+            sprintf(inputMessage, "%s ", *ptrStr1);
+            OutputMessage(inputMessage);
         }
         else
         {
-            OutputMessage("%s, ", *ptrStr1);
+            sprintf(inputMessage, "%s ", *ptrStr1);
+            OutputMessage(inputMessage);
         }
     }
 
-    OutputMessage("а отличаются тем, что ");
+    OutputMessage("а отличаются тем, что");
     ObjectDefinitionPrint(object1, &stack1);
 
-    OutputMessage(" A ");
+    OutputMessage("A");
     ObjectDefinitionPrint(object2, &stack2);
 
     StackDtor(&stack1);
