@@ -1,12 +1,12 @@
-#include "Tree.h"
-#include "FileOperations.h"
+#include "../libs/Tree.h"
+#include "../libs/FileOperations.h"
 
 #define DEBUG
 
 const size_t STR_MAX_SIZE = 100;
-const char *TREE_GRAPH_VIZ = "graphviz.gv";
-const char *INPUT_FILE_NAME = "data.txt";
-const char *OUTPUT_FILE_NAME = "data.txt";
+const char *TREE_GRAPH_VIZ   = "../res/graphviz.gv";
+const char *INPUT_FILE_NAME  = "../res/data.txt";
+const char *OUTPUT_FILE_NAME = "../res/data.txt";
 
 static void TreeVisitPrintNodeInFile(const Node_t *node, FILE *foutput)
 {
@@ -54,7 +54,7 @@ void TreeDump(Tree_t *tree)
 
     fclose(graphViz);
 
-    system("dot -Tpng /home/kostya/Akinator/graphviz.gv -o /home/kostya/Akinator/graphviz.png");
+    system("dot -Tpng ../res/graphviz.gv -o ../res/graphviz.png");
 }
 
 TreeErrorCode TreeCtor(Tree_t *tree)

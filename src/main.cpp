@@ -1,6 +1,6 @@
-#include "Tree.h"
-#include "Stack.h"
-#include "UnitTests.h"
+#include "../libs/Tree.h"
+#include "../libs/Stack.h"
+#include "../libs/UnitTests.h"
 
 #define DEBUG
 //#undef DEBUG
@@ -22,7 +22,7 @@ int main()
 
     //UnitTestForGuessObject();
 
-    //UnitTestForDefineObjectMode();
+    UnitTestForDefineObjectMode();
 
     //UnitTestForCompairObjectsMode();
 

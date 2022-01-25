@@ -1,4 +1,4 @@
-#include "AkinatorMode.h"
+#include "../libs/AkinatorMode.h"
 
 #define DEBUG
 
@@ -277,5 +277,5 @@ void ShowTree(const Tree_t *tree)
 {
     assert(tree != nullptr);
 
-    system("mimeopen -d /home/kostya/Akinator/graphviz.png\n");
+    system("mimeopen -d ../res/graphviz.png\n");
 }
