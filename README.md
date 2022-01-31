@@ -1,5 +1,5 @@
 # Akinator
-It is simple program, that can happy you. She have 4 operating mode
+It's a simple program, that can make you happy. It has 4 game modes:
 1) GuessObject - we need to answer on the questions yes or no and we will see object, which matches the selected attributes;
 
 2) DefineObjectMode - we need input name object and program output its attributes;

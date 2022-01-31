@@ -1,6 +1,6 @@
-#include "../libs/Tree.h"
-#include "../libs/Stack.h"
-#include "../libs/UnitTests.h"
+#include "../include/Tree.h"
+#include "../include/Stack.h"
+#include "../include/UnitTests.h"
 
 #define DEBUG
 //#undef DEBUG

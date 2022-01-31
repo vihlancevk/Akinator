@@ -1,4 +1,4 @@
-#include "../libs/AkinatorMode.h"
+#include "../include/AkinatorMode.h"
 
 #define DEBUG
 

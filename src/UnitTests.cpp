@@ -1,5 +1,5 @@
-#include "../libs/UnitTests.h"
-#include "../libs/AkinatorMode.h"
+#include "../include/UnitTests.h"
+#include "../include/AkinatorMode.h"
 
 #define DEBUG
 

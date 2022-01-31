@@ -1,5 +1,5 @@
-#include "../libs/Tree.h"
-#include "../libs/FileOperations.h"
+#include "../include/Tree.h"
+#include "../include/FileOperations.h"
 
 #define DEBUG
 
